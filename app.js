@@ -32,7 +32,6 @@ stars.forEach((e)=>{
         })
         const list1=evn.currentTarget.classList;
         numbStars=list1[1];
-        console.log(numbStars);
     })
 })
 
