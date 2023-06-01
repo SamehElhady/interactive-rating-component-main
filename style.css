@@ -15,10 +15,10 @@ main{
     position: relative;
     background: hsl(216, 12%, 8%);
     align-items: center;
+    justify-content: center;
 }
 
 .first-layer{
-    margin-top: 20px;
     width: 350px;
     height: 350px;
     background: hsl(213, 19%, 18%,0.6);
@@ -93,4 +93,48 @@ main{
     background:white ;
     color:hsl(25, 97%, 53%) ;
     cursor: pointer;
+}
+
+/*      class second layer*/
+.second-layer{
+    margin-top: auto;
+    width: 250px;
+    height: 300px;
+    background: hsl(213, 19%, 18%, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 15px;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    display: none;
+}
+.row2-1{
+    width: 150px;
+    height: 125px;
+}
+.row2-1 img{
+    width: 150px;
+    height:100px;
+}
+.row2-2{
+    background: hsla(213, 19%, 18%, 1);
+    color: hsl(25, 97%, 53%);
+    width: 70%;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+}
+.row2-3{
+    color: white;
+}
+.row2-3 p{
+    font-size: 20px;
+}
+.row2-4 {
+    color: hsl(217, 12%, 63%);
 }
